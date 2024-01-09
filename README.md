@@ -5,3 +5,4 @@ Note: all the data and exercise Jupyter Notebooks are from [https://github.com/U
 
 ## Files
 - `/data`: Folder storing data for exercises.
+- `week 1`: Folder storing week 1 exercise.
