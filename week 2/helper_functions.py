@@ -339,8 +339,8 @@ def scrape_abstract(fieldsOfStudy, limit_per_field=100, url='https://api.semanti
 # Define a function for plotting various measures of distributional distance between different corpora
 def distributional_distance(corpora_df, measure, fieldsOfStudy, df_index):
     # Create two figures: one for heatmaps and one for MDS visualizations
-    fig_heatmap, axes_heatmap = plt.subplots(len(df_index), 1, figsize=(10, 10 * len(df_index)))
-    fig_mds, axes_mds = plt.subplots(len(df_index), 1, figsize=(10, 10 * len(df_index)))
+    fig_heatmap, axes_heatmap = plt.subplots(len(df_index), 1, figsize=(6, 6 * len(df_index)))
+    fig_mds, axes_mds = plt.subplots(len(df_index), 1, figsize=(6, 6 * len(df_index)))
 
     for i, index in enumerate(df_index):
         corpora = corpora_df[index]
