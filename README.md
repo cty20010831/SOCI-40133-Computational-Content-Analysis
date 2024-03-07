@@ -10,3 +10,5 @@ Note: all the data and exercise Jupyter Notebooks are from [https://github.com/U
 - `/week 3`: Folder storing week 3 homework.
 - `/week 4`: Folder storing week 4 homework.
 - `/week 5`: Folder storing week 5 homework.
+- `/week 6`: Folder storing week 5 homework.
+- `/week 7`: Folder storing week 7 homework.
